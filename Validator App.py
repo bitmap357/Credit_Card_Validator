@@ -1,5 +1,6 @@
 card_no = "5610591081018250"
 odd_sum = 0
+even_sum = 0
 double_list = []
 number = list(card_no)
 for (idx, val) in enumerate(number):
@@ -16,4 +17,7 @@ for x in double_list:
 # converting the string into a list
 double_list = list(double_string)
 
+# adding even numbers
+for x in double_list:
+    even_sum += int(x)
 
