@@ -13,4 +13,7 @@ double_string = ""
 for x in double_list:
     double_string += str(x)
 
+# converting the string into a list
+double_list = list(double_string)
+
 
