@@ -3,3 +3,7 @@ odd_sum = 0
 number = list(card_no)
 for (idx, val) in enumerate(number):
     if idx % 2 != 0:
+        odd_sum += int(val)
+
+print()
+
