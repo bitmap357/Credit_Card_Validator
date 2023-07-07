@@ -9,3 +9,8 @@ for (idx, val) in enumerate(number):
         double_list.append(int(val)*2)
 
 # converting the list into a string
+double_string = ""
+for x in double_list:
+    double_string += str(x)
+
+
