@@ -21,6 +21,7 @@ double_list = list(double_string)
 for x in double_list:
     even_sum += int(x)
 
+# Adding sum and validation
 net_sum = odd_sum + even_sum
 if net_sum % 10 == 0:
     print('This is a valid card')
