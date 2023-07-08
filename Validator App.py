@@ -3,7 +3,7 @@ card_num = input("Please input your card number(There should be up to 16 digits)
 odd_sum = 0
 even_sum = 0
 double_list = []
-number = list(card_no)
+number = list(card_num)
 for (idx, val) in enumerate(number):
     if idx % 2 != 0:
         odd_sum += int(val)
