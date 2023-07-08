@@ -4,6 +4,7 @@ odd_sum = 0
 even_sum = 0
 double_list = []
 
+# Checking card number
 card_num = input("Please input your card number(There should be up to 16 digits):")
 number = list(card_num)
 for (idx, val) in enumerate(number):
