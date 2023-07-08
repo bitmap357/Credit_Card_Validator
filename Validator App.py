@@ -7,6 +7,10 @@ double_list = []
 # Checking card number
 while True:
     card_num = input("Please input your card number(There should be up to 16 digits):")
+    if len(card_num) == 16:
+        break
+    else:
+        continue
 
 
 number = list(card_num)
