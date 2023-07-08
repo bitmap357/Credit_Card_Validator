@@ -1,5 +1,5 @@
 # card_no = "5610591081018250"
-
+# Declarations
 odd_sum = 0
 even_sum = 0
 double_list = []
