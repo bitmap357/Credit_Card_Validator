@@ -1,4 +1,5 @@
-card_no = "5610591081018250"
+# card_no = "5610591081018250"
+card_num = input("Please input your card number:")
 odd_sum = 0
 even_sum = 0
 double_list = []
